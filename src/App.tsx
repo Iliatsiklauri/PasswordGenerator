@@ -9,11 +9,11 @@ import Strength from './components/Strength.tsx';
 const App = () => {
   const [value, setValue] = useState(10);
   const [password, setPassword] = useState('');
-  const [includeUppercase, setIncludeUppercase] = useState(true);
+  const [includeUppercase, setIncludeUppercase] = useState(false);
   const [includeLowercase, setIncludeLowercase] = useState(false);
   const [includeNumbers, setIncludeNumbers] = useState(false);
   const [includeSymbols, setIncludeSymbols] = useState(false);
-  const [checkedCount, setCheckedCount] = useState(1);
+  const [checkedCount, setCheckedCount] = useState(0);
 
   const getValue = (e: React.ChangeEvent<HTMLInputElement>) => {
     setValue(Number(e.target.value));
@@ -53,8 +53,6 @@ const App = () => {
         </div>
         <input type="range" max={20} className="range" onChange={getValue} />
         <div className="checkboxes w-full flex flex-col gap-3 mb-4 mt-4">
-
-
           <CheckElement
             text={'Include Uppercase Letters'}
             checked={includeUppercase}
