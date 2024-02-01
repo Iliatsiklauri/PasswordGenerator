@@ -6,7 +6,8 @@ type propType = {
 const Strength = ({ count }: propType) => {
   return (
     <div className="wrapper">
-      <h2>STRENGTH</h2>
+      <h2>STRENGTH</h2> 
+       {/* ვიცი ქვემოთ ოქროს წესს ვარღვევ მაგრამ გამოვასწორებ :)  */}
       {count === 0 ? (
         <div className="flex ml-[100px]">
           <div className="flex w-[60px] h-[28px] justify-between">

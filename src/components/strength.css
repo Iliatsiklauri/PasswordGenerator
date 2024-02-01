@@ -29,3 +29,13 @@ h2 {
   color: hsla(252, 9%, 53%, 1);
   opacity: 0.9;
 }
+
+@media screen and (width > 1200px) {
+  .wrapper {
+    width: 470px;
+    height: 72px;
+  }
+  div.secondd {
+    width: 160px;
+  }
+}

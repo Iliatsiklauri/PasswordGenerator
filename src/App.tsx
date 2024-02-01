@@ -41,18 +41,20 @@ const App = () => {
       <h1 className="header">Password Generator</h1>
       <Password text={password} />
       <form
-        className="border-2 border-black flex flex-col items-center justify-between w-[343px] p-3"
+        className="forma border-2 border-black flex flex-col items-center justify-between w-[343px] p-3"
         onSubmit={(e) => {
           e.preventDefault();
           generateRandomPassword();
         }}
       >
-        <div className="flex w-full justify-between">
+        <div className="sazomi flex w-full justify-between">
           <h1 className="char">Character length:</h1>
           <h1 className="numberValue">{value}</h1>
         </div>
         <input type="range" max={20} className="range" onChange={getValue} />
-        <div className="w-full flex flex-col gap-3 mb-4 mt-4">
+        <div className="checkboxes w-full flex flex-col gap-3 mb-4 mt-4">
+
+
           <CheckElement
             text={'Include Uppercase Letters'}
             checked={includeUppercase}

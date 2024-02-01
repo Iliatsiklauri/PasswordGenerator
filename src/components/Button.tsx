@@ -3,10 +3,10 @@ const Button = () => {
   return (
     <div className="btn">
       <button
-        className="flex items-center justify-center gap-3 border-2 border-black"
+        className="btn flex items-center justify-center gap-3 border-2 border-black"
         type="submit"
       >
-        Generate
+        <p className="generate">Generate</p>
         <img src="Shape (3).png" alt="" />
       </button>
     </div>

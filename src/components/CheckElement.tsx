@@ -13,7 +13,7 @@ const CheckElement: React.FC<CheckElementProps> = ({ text, checked, setChecked }
   };
 
   return (
-    <div className="flex items-center">
+    <div className="wrappper flex items-center">
       <input
         className="checkbox"
         type="checkbox"

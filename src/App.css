@@ -12,7 +12,6 @@
   font-family: JetBrains Mono;
   font-size: 16px;
   font-weight: 700;
-  /* line-height: 24px; */
   letter-spacing: 0px;
   text-align: left;
   color: hsla(252, 11%, 91%, 1);
@@ -38,4 +37,28 @@
 
 form {
   background-color: hsla(247, 11%, 15%, 1);
+}
+@media screen and (width > 1200px) {
+  form.forma {
+    width: 540px;
+    height: 528px;
+  }
+  .range {
+    width: 470px;
+  }
+  div.checkboxes {
+    margin-left: 43px;
+    gap: 10px;
+  }
+  div.sazomi {
+    width: 470px;
+  }
+  .numberValue {
+    font-family: JetBrains Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
 }

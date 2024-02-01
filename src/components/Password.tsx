@@ -10,10 +10,10 @@ const Password = ({ text }: PropsType) => {
   };
 
   return (
-    <div className="w-[343px] h-[50px] border-2 border-black flex items-center justify-around wrap">
+    <div className="paroli w-[343px] h-[50px] border-2 border-black flex items-center justify-around wrap">
       <h1 className="pass w-[280px]">{text}</h1>
       <div className="cursor-pointer" onClick={handleCopyClick}>
-        <img src="Shape (1).png" alt="" />
+        <img className="copy" src="Shape (1).png" alt="" />
       </div>
     </div>
   );

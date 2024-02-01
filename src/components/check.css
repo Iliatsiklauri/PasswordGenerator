@@ -13,3 +13,8 @@ p {
   height: 20px;
   accent-color: rgba(164, 255, 175, 1);
 }
+@media screen and (width > 1200px) {
+  .wrappper {
+    gap: 20px;
+  }
+}
