@@ -29,7 +29,9 @@ h2 {
   color: hsla(252, 9%, 53%, 1);
   opacity: 0.9;
 }
-
+h1.gg {
+  margin-right: 0px;
+}
 @media screen and (width > 1200px) {
   .wrapper {
     width: 470px;
