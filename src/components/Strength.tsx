@@ -2,9 +2,8 @@ import './strength.css';
 
 type propType = {
   count: number;
-  value: number;
 };
-const Strength = ({ count, value }: propType) => {
+const Strength = ({ count }: propType) => {
   return (
     <div className="wrapper">
       <h2>STRENGTH</h2>
