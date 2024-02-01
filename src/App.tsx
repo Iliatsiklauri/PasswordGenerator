@@ -86,7 +86,7 @@ const App = () => {
             }}
           />
         </div>
-        <Strength count={checkedCount} value={value} />
+        <Strength count={checkedCount} />
         <Button />
       </form>
     </div>
