@@ -7,7 +7,7 @@ const Button = () => {
         type="submit"
       >
         Generate
-        <img src="public\Shape (3).png" alt="" />
+        <img src="Shape (3).png" alt="" />
       </button>
     </div>
   );

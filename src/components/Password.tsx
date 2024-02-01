@@ -6,12 +6,7 @@ type PropsType = {
 
 const Password = ({ text }: PropsType) => {
   const handleCopyClick = () => {
-    const tempInput = document.createElement('input');
-    document.body.appendChild(tempInput);
-    tempInput.value = text;
-    tempInput.select();
-    document.execCommand('copy');
-    document.body.removeChild(tempInput);
+    navigator.clipboard.writeText(text);
   };
 
   return (
