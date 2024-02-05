@@ -19,7 +19,7 @@ const Strength = ({ count }: propType) => {
         </div>
       ) : null}
       {count === 1 ? (
-        <div className="flex w-[170px] justify-between">
+        <div className="flex tooweak justify-between">
           <h1 className="gg">TOO WEAK!</h1>
           <div className="flex w-[60px] h-[28px] justify-between">
             <div className="w-[10px] h-[28px] bg-red-600"></div>

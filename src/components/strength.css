@@ -9,6 +9,9 @@
   display: flex;
   align-items: center;
 }
+.tooweak {
+  width: 170px;
+}
 h1.gg {
   font-family: JetBrains Mono;
   font-size: 18px;
@@ -38,6 +41,9 @@ h1.gg {
     height: 72px;
   }
   div.secondd {
+    width: 160px;
+  }
+  .tooweak {
     width: 160px;
   }
 }
